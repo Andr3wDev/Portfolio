@@ -1,0 +1,128 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+	font-family: 'Plus Jakarta Sans';
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(315deg, #4248cb 0%, #1eaae2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient-primary-to-secondary {
+	background: -webkit-linear-gradient(315deg, #4248cb 0%, #1eaae2 100%);
+}
+
+.text-primary {
+   color: #4248cb !important;
+}
+
+.proj-item h3 {
+	margin-bottom: 1rem;
+	font-weight: 600;
+}
+
+.proj-img img {
+	max-width: 100%;
+}
+
+.rounded-4 {
+  border-radius: 1rem !important;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+
+.content-links{
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.content-links a {
+    transition: all 0.2s ease;
+    border: 2px solid #333;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    padding: 10px 24px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    background: #333;
+	text-decoration: none;
+}
+
+.feature {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.5rem;
+}
+
+.profile {
+  position: relative;
+  height: 75vw;
+  width: 75vw;
+  border-radius: 2vw;
+  margin-top: 5vw;
+  max-height: 40rem;
+  max-width: 40rem;
+}
+.profile .profile-img {
+  height: 80vw;
+  max-height: 45rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (min-width: 576px) {
+  .profile {
+    height: 60vw;
+    width: 60vw;
+  }
+  .profile .profile-img {
+    height: 65vw;
+  }
+}
+@media (min-width: 768px) {
+  .profile {
+    height: 50vw;
+    width: 50vw;
+  }
+  .profile .profile-img {
+    height: 55vw;
+  }
+}
+@media (min-width: 992px) {
+  .profile {
+    height: 35vw;
+    width: 40vw;
+  }
+  .profile .profile-img {
+    height: 30vw;
+  }
+}
+@media (min-width: 1200px) {
+  .profile {
+    height: 35vw;
+    width: 35vw;
+  }
+  .profile .profile-img {
+    height: 40vw;
+  }
+}
